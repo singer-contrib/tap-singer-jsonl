@@ -7,7 +7,7 @@ import ntpath
 import sys
 from pathlib import Path
 
-from singer_sdk._singerlib import Catalog
+from singer_sdk.singerlib import Catalog
 from smart_open import s3
 
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)

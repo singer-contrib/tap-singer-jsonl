@@ -2,9 +2,8 @@
 import json
 import logging
 import sys
-from pathlib import Path
 
-from singer_sdk._singerlib import Catalog
+from singer_sdk.singerlib import Catalog
 from smart_open.smart_open_lib import patch_pathlib
 
 from .utils import get_file_lines, get_schema_messages, parse_args
